@@ -13,7 +13,6 @@ module.exports = {
         mime: {
             'text/x-typescript': ['ts']
         },
-        karmaTypescriptConfig: undefined,
         preprocessors: {
             'test/unit/*.ts': ['webpack', 'sourcemap']
         }
